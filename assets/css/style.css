@@ -1,0 +1,55 @@
+
+
+body {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("carla.jpg");
+
+    /* Full height */
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+ #randomNumberBox {
+    height: 300px;
+    background-color: green;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#randomNumber {
+    font-size: 100px;
+    align-self: center;
+
+}
+#crystalOne {
+    height: 80px;
+    width: 80px;
+   
+}
+
+#crystalTwo {
+    height: 200px;
+    background-color: purple;
+}
+#crystalThree {
+    height: 200px;
+    background-color:blue;
+}
+#crystalFour {
+    height: 200px;
+    background-color: orange;
+}
+#scoreBoard {
+    height: 300px;
+    background-color: aqua;
+}
